@@ -54,7 +54,7 @@ body
 .header_bar{
     padding:30px;
     height: 10%;
-    width: 95%;
+    width: 98.5%;
     background-color: #31304D;
     
 }
@@ -116,10 +116,10 @@ body
 .body_container
 {
     height: 79%;
-    width:97%;
+    width:100%;
     background-color: #161A30;
     display: flex;
-    gap: 48%;
+    gap: 30px;
     padding-top: 20px;
     padding-left: 40px;
    
@@ -136,8 +136,9 @@ body
     align-items: center;
     font-size: 15px;
     border-left: 12px solid #6C22A6;
-     flex-wrap: wrap;
+    
 }
+
 .main 
 {
 display: flex;
@@ -154,6 +155,19 @@ width: 100%;
 {
     font-style: bold;
     font-size: 25px;
+}
+.main_box
+{
+    display: flex;
+    
+    
+     flex-wrap: wrap;
+    
+}
+.right_box
+{
+    padding-top: 30px;
+   
 }
 
 
